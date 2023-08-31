@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiweb | Prueba</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <script src="https://cdn.jsdelivr.net/npm/rellax@1.12.1/rellax.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+</head>
+<body>
+    <main class="main">
+        <section class="section">
+            <div class="announcement__bar"><span>Gratis verzending vanaf €30</span></div>
+        </section>
+        <section class="section slide">
+            <div class="section__container">
+                <h1 class="section__title">Discover our <br/> planet-friendly offer</h1>
+                <section class="splide products">
+                    <div class="splide__arrows splide__arrows--ltr">
+                        <button class="splide__arrow splide__arrow--prev" type="button" aria-label="Previous slide" aria-controls="splide01-track">
+                            <svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5.54069 9.67825L5.53958 9.67704L2.56705 6.42731L1.94867 5.75126L2.56816 5.07623L5.5505 1.82649C5.55647 1.81999 5.57422 1.79329 5.57422 1.74365C5.57422 1.73655 5.57386 1.72992 5.57322 1.72375L1.9521 5.66953C1.94842 5.67354 1.94418 5.67942 1.94019 5.69014C1.93601 5.70134 1.93084 5.72151 1.93084 5.75237C1.93084 5.7872 1.94303 5.82165 1.96553 5.84988L5.56342 9.78084C5.56405 9.77471 5.56441 9.76813 5.56441 9.76109C5.56441 9.71145 5.54666 9.68476 5.54069 9.67825Z" fill="#555B64" stroke="#444950" stroke-width="2"/>
+                            </svg>
+                        </button>
+                        <button class="splide__arrow splide__arrow--next" type="button" aria-label="Next slide" aria-controls="splide01-track">
+                            <svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.96322 9.67825L1.96433 9.67704L4.93685 6.42731L5.55523 5.75126L4.93574 5.07623L1.95341 1.82649C1.94743 1.81999 1.92969 1.79329 1.92969 1.74365C1.92969 1.73655 1.93005 1.72992 1.93069 1.72375L5.5518 5.66953C5.55548 5.67354 5.55972 5.67942 5.56372 5.69014C5.5679 5.70134 5.57307 5.72151 5.57307 5.75237C5.57307 5.7872 5.56088 5.82165 5.53837 5.84988L1.94049 9.78084C1.93986 9.77471 1.9395 9.76813 1.9395 9.76109C1.9395 9.71145 1.95725 9.68476 1.96322 9.67825Z" fill="#555B64" stroke="#444950" stroke-width="2"/>
+                            </svg>                                
+                        </button>
+                    </div>
+                    <div class="splide__track">
+                        <div class="splide__list"></div>
+                    </div>
+                </section>
+                <div class="section__goto">
+                    <a href="javascript:void(0);" class="botn secondary">Browse all products</a>
+                </div>
+            </div>
+        </section>
+        <section class="section newsletter">
+            <div class="newsletter__float one" data-rellax-speed="3">
+                <img src="./assets/images/forma-1-newsletter.png" alt="Float left">
+            </div>
+            <div class="newsletter__float two" data-rellax-speed="2">
+                <img src="./assets/images/forma-2-newsletter.png" alt="Float right">
+            </div>
+            <div class="section__container">
+                <h2>Join the green revolution without commitment</h2>
+                <p>If you are missing something and don't want to miss future promotions or our future products</p>
+                <form class="newsletter__form">
+                    <div class="form__group">
+                        <div class="group__element">
+                            <input type="email" name="email" placeholder="Your Email">
+                        </div>
+                        <div class="group__element">
+                            <button type="submit" class="botn secondary">Send</button>
+                        </div>
+                    </div>
+                    <div class="form__group message"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="assets/js/init.js"></script>
+</body>
+</html>
