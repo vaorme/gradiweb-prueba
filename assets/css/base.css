@@ -461,4 +461,7 @@ main.main section.newsletter form.newsletter__form .form__group .group__element 
   main.main section.newsletter form.newsletter__form .form__group .group__element + .group__element {
     max-width: 200px;
   }
+  main.main .products .splide__slide:nth-child(2n) .product__card .card__image {
+    padding-bottom: 320px;
+  }
 }/*# sourceMappingURL=base.css.map */
