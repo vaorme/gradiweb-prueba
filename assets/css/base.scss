@@ -433,3 +433,12 @@ main.main section.newsletter form.newsletter__form .form__group .group__element 
         padding-bottom: 320px;
     }
 }
+@media (max-width: 768px){
+    main.main section.section.slide .splide .splide__track{
+        padding-right: 100px !important;
+    }
+    main.main .products .product__card .card__body .card__between{
+        flex-direction: column;
+        gap: 8px;
+    }
+}
