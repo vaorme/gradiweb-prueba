@@ -85,8 +85,11 @@ async function init(){
     document.addEventListener('click', function(e){
         if (!e.target.matches('.add-to-cart')) return;
         e.preventDefault();
-
         let target = e.target;
+        if(target.classList.contains('added')){
+            return false;
+        }
+        target.addClass('added');
         target.innerHTML = `
             <img src="assets/images/loader.gif">
         `;
